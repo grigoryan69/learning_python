@@ -6,11 +6,11 @@ def from_one_to_num(num) -> int:
 	else:
 		from_one_to_num(int(num) - 1)
 	print(int(num))
-	
+
 
 def main():
 	from_one_to_num(100)
-	
+
 
 if __name__ == '__main__':
 	main()
