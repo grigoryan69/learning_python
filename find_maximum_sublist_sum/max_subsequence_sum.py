@@ -8,7 +8,7 @@ def max_subsequence_sum(value):
     # we use max_ending to look for all positive numbers in list or tuple
     max_ending = 0
     
-    for n in range(1, len(value)):
+    for n in range(len(value)):
         max_ending += value[n]
 
         if max_ending < 0:
